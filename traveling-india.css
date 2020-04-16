@@ -1,0 +1,182 @@
+@charset "UTF-8";
+main {
+  font-family: Verdana, sans-serif;
+  margin-left: 10px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border-top: 1px solid #d7d6d5;
+  border-right: 1px solid #d7d6d5;
+  border-bottom: 1px solid #d7d6d5;
+  border-left: 1px solid white;
+}
+
+main .hr-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  height: 36px;
+  margin-left: 15px;
+}
+
+main .hr-title .hr-title__caps {
+  text-transform: capitalize;
+  font: 16px Verdana, sans-serif;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  display: block;
+  width: auto;
+}
+
+main .hr-title hr {
+  display: block;
+  margin-top: auto;
+  height: 0;
+  width: 75%;
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid white;
+}
+
+main .art {
+  margin-left: 10px;
+}
+
+main .art .title {
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main .art .text {
+  font-size: 12px;
+  padding-right: 15.20px;
+}
+
+main .art .text .bold {
+  font-weight: bold;
+}
+
+main .art img {
+  float: left;
+  clear: both;
+  margin-right: 20.50px;
+  margin-bottom: 20.50px;
+}
+
+main .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 200px;
+  margin-top: 27px;
+  margin-left: 10px;
+}
+
+main .pagination .square {
+  height: 22px;
+  width: 22px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#e8e8e8), to(white));
+  background: linear-gradient(0deg, #e8e8e8 0%, white 100%);
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 2px lightgrey;
+          box-shadow: 0 0 2px lightgrey;
+  position: relative;
+}
+
+main .pagination .square img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .pagination .active {
+  background: #c2081a !important;
+  color: white;
+}
+
+main .pagination .first-last {
+  background: darkgrey !important;
+}
+
+main .clubs {
+  margin-top: 36px;
+}
+
+main .clubs .article-cards {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .clubs .article-cards .article-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33%;
+  font-size: 11px;
+}
+
+main .clubs .article-cards .article-card .article-card__title {
+  color: #c2081a;
+  font-weight: bold;
+}
+
+main .clubs .article-cards .article-card .article-card__title:before {
+  content: url("images/catalogue-list-marker.png");
+  margin-right: 5px;
+}
+
+main .clubs .article-cards .article-card .article-card__preview {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main .clubs .article-cards .article-card .article-card__text:after {
+  content: ' подробнее';
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 11px;
+  color: #739171;
+  cursor: pointer;
+}
+
+main .socials {
+  margin-top: 17px;
+  background-color: white;
+  border-top: 1px dotted black;
+}
+
+.traveling-india-gap {
+  height: 53px;
+}
+/*# sourceMappingURL=traveling-india.css.map */

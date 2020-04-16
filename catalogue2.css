@@ -1,0 +1,41 @@
+main {
+  font-family: Verdana, sans-serif;
+  margin-left: 10px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border: 1px solid #d7d6d5;
+}
+
+main .list .title {
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+main .list ul {
+  list-style-image: url("images/catalogue-list-marker.png");
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+main .list ul li {
+  height: 38px;
+  line-height: 38px;
+  padding-left: 10px;
+}
+
+main .list ul li a {
+  color: #739171;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+main .list ul li:nth-of-type(odd) {
+  background-color: white;
+}
+/*# sourceMappingURL=catalogue2.css.map */
