@@ -1,0 +1,51 @@
+main {
+  font-family: Verdana, sans-serif;
+  margin-left: 10px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border: 1px solid #d7d6d5;
+}
+
+main .contacts {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+main .contacts .title {
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main .contacts .contact-option {
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 11px;
+}
+
+main .contacts .contact-option img {
+  margin-right: 5px;
+}
+
+main .maps {
+  margin-left: 10px;
+}
+
+main .maps .title {
+  font-size: 16px;
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=contact.css.map */
